@@ -19,7 +19,7 @@ public class User {
     private String password;
 
 
-//    public User() { } // нужен ли пустой конструктор для работы с Jackson?
+    public User() { } // нужен ли пустой конструктор для работы с Jackson?
 
     public User(String name, String password) {
         this.name = name;
